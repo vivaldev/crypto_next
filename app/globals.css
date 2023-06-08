@@ -1,0 +1,25 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+
+  /* COLOR PALETTES */
+  --color1: #283d3b;
+  --color2: #197278;
+  --color3: #ceac99;
+  --color4: #c44536;
+  --color5: #772e25;
+
+  background-color: var(--color3);
+  color: var(--color1);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: #253679; */
+}

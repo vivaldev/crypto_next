@@ -1,23 +1,15 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-import Header from './dashboard/page'
+// /app/layout.js
+import Header from "./dashboard/page";
+import React from "react";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
-  title: 'Crypto Next',
-  description: 'Crypto coin data fetching app',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }) {
   return (
-    <div className={inter.className}>
-      <Header />
-      {children}
-    </div>
-  )
+    <html lang="en">
+      <body>
+        <Header />
+        {children}
+      </body>
+    </html>
+  );
 }

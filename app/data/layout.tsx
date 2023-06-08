@@ -1,6 +1,4 @@
-import "../global.css";
-
-export default function DashboardLayout({
+export default function DataLayout({
   children,
 }: {
   children: React.ReactNode;
