@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+
+  border: 1px solid #3b3838;
+
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #7c8ed9;
+}
+
+.logo {
+  width: 30%;
+}
